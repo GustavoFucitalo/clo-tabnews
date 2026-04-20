@@ -1,5 +1,6 @@
 function Home() {
-    return <h1>Four stick - Led Zeppelin</h1>
+    let FavBand = prompt("Type your favorite band!")
+    return `Your favorite band is ${<h1>FavBand</h1>}`
 }
 
 export default Home;
